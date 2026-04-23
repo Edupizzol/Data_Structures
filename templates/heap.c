@@ -35,7 +35,7 @@ void siftUp(Heap* heap, int i){
             swap(&heap->data[i],&heap->data[parent]);
             i = parent;
         }
-        else break;
+        else break; 
     }
 }
 
